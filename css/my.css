@@ -20,25 +20,6 @@ body{
     text-decoration: none;
   }
   
-  
-  .footer{
-    position: fixed;
-      bottom: 0px;
-      left: 0px;
-      width: 100%;
-      height: 56px;
-      background-color: #f06c74;
-  }
-  
-  
-.tab-list{
-  display:flex;
-}
-
-li .tab-list{
-  width: 100%;
-  position: center;
-}
 
 .userpage{
   width: 100%;
@@ -127,5 +108,131 @@ li .tab-list{
 }
 
 .tabs{
-  position: auto;
+  
+}
+
+.logos{ 
+  width: 30px;
+  height: 30px;
+  bottom: 0px;
+  margin-top: 9px;
+}
+
+.card-home {
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  position: absolute;
+}
+
+.a {
+  width: 90%;
+  height: 100px;
+  background-color:blue;
+}
+
+.carousel .carousel-item{
+  width:100%;
+}
+
+#nav-icon{
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+#test-swipe-1{
+  width: 100%;
+  height: 10000px;
+  background-color: white;
+}
+
+#test-swipe-2{
+  width: 100%;
+  background-color:#29B6F6;
+}
+
+#test-swipe-3{
+  width: 100%;
+  background-color:#FFCA28;
+}
+
+#test-swipe-4{
+  width: 100%;
+  background-color:#42A5F5;
+}
+
+#test-swipe-5{
+  width: 100%;
+  background-color: white;
+}
+
+#test-swipe-6{
+  width: 100%;
+  background-color: white;
+}
+
+.nav-wrapper{
+  background-color: gray;
+}
+
+.brand-log{
+  left: 23%;
+}
+
+.tabs .indicator{
+  background-color: black;
+}
+
+.m-footer{
+  height: 56px;
+  width: 100%;
+  bottom: 0px;
+  background-color: white;
+  position: fixed;
+}
+
+.footer2{
+  height: 56px;
+  width: 100%;
+  bottom: 0px;
+  background-color:red;
+  position: fixed;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tab-p{
+  margin: 0 5px;
+  margin-bottom: 10px;
+  z-index: 0;
+  top: 0;
+}
+
+.tabs .tab a{
+  color: gray;
+}
+
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  color: black;
+}
+
+
+
+#m-icons {
+  width: 56px;
+  height: 56px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+li {
+  list-style: none;
 }

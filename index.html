@@ -4,206 +4,133 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
+  <!--Import css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/my.css" />
-
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 </head>
 
 <body class="#eeeeee grey lighten-3">
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-      </div>
-    </nav>
+  
+  <!--ヘッダーと横のスライドナビゲーションバー-->
+  <div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
   </div>
-  <ul class="side-nav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul>
 
-  <ul id="tabs-swipe-demo" class="tabs">
-    <li class="tab col s3"><a class="active" href="#test-swipe-1">Twitter</a></li>
-    <li class="tab col s3"><a href="#test-swipe-2">Instaglam</a></li>
-    <li class="tab col s3"><a href="#test-swipe-3">Facebook</a></li>
-    <li class="tab col s3"><a href="#test-swipe-4">Slack</a></li>
-  </ul>
-  <div id="test-swipe-1" class="col s12">
-    <!--twitterのTab-->
-    <div class="fixed-action-btn toolbar">
-      <!--投稿内容入力-->
-      <a class="btn-floating btn-large red">
-        <i class="large material-icons">mode_edit</i>
-      </a>
-      <ul>
-        <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
-        <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
-        <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
-        <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
-      </ul>
+  <!--タブバーの部分-->
+  <div id="main">
+    <ul id="tabs-swipe-demo" class="tabs">
+      <li class="tab col s3"><a class="active" href="#Home-tab"><img class="logos"  src="./icons/home-black-18dp.svg"></a></li>
+      <li class="tab col s3"><a href="#Twitter-tab"><img class="logos" src="./icons/twitter.svg"></a></li>
+      <li class="tab col s3"><a href="#Instagram-tab"><img class="logos" src="./icons/instagram.svg"></a></li>
+      <li class="tab col s3"><a href="#Facebook-tab"><img class="logos" src="./icons/facebook.svg"></a></li>
+      <li class="tab col s3"><a href="#Slack-tab"><img class="logos" src="./icons/slack.svg"></a></li>
+    </ul>
+
+    <!--Home_tab-->
+    <div id="Home-tab" class="col s12">
+
     </div>
 
-    <div class="tab_item is-active-item" id="item1">
-      <!--UserPage-->
-      <div class="t-card">
-        <div class="m-top">
-          <img class="m-icon" src="img/img_avatar.png">
-          <img class="t-header" src="./img/Best-Twitter-Header-Image-Size-1024x341.webp">
-        </div>
-        <div class="profile">
-          <div class="name-box">
-            <div class="text">あああああああああ</div>
-          </div>
-          <ul id="tabs-swipe-demo" class="tabs">
-            <li class="tab col s3"><a href="#profile-tab-1">twieet</a></li>
-            <li class="tab col s3"><a href="#profile-tab-2">media</a></li>
-            <li class="tab col s3"><a href="#profile-tab-3">likes</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="profile-tab-1" class="col s12">Test 1</div>
-      <div id="profile-tab-2" class="col s12">Test 2</div>
-      <div id="profile-tab-3" class="col s12">Test 3</div>
-    </div>
-    <div class="tab_item" id="item2">
-      <!--Timeline-->
-      <div class="my">
-        <div class="my-top">
-          <li class="large material-icons">account_circle</li>
-          <li class="username">ああああ</li>
-        </div>
-        <div class="my-card">
-          <div class="my-text">
-            おはよう！僕の名前はミッキーだよ。ピエンピエンピエンぴえん
-          </div>
-          <div class="my-like">
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-          </div>
-        </div>
-      </div>
-      <div class="my">
-        <div class="my-top">
-          <li><img class="m-icon" src=""></li>
-          <li class="username">ああああ</li>
-        </div>
-        <div class="my-card">
-          <div class="my-text">
-            おはよう！僕の名前はミッキーだよ。ピエンピエンピエンぴえん
-          </div>
-          <div class="my-like">
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-          </div>
-        </div>
-      </div>
-      <div class="my">
-        <div class="my-top">
-          <li class="large material-icons">account_circle</li>
-          <li class="username">ああああ</li>
-        </div>
-        <div class="my-card">
-          <div class="my-text">
-            おはよう！僕の名前はミッキーだよ。ピエンピエンピエンぴえん
-          </div>
-          <div class="my-like">
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-            <li><i class="small material-icons">insert_chart</i></li>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="my">
-          <div class="my-top">
-            <li class="large material-icons">account_circle</li>
-            <li class="username">ああああ</li>
-          </div>
-          <div class="my-card">
-            <div class="my-text">
-              おはよう！僕の名前はミッキーだよ。ピエンピエンピエンぴえん
-            </div>
-            <div class="my-like">
-              <li><i class="small material-icons">insert_chart</i></li>
-              <li><i class="small material-icons">insert_chart</i></li>
-              <li><i class="small material-icons">insert_chart</i></li>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="my">
-          <div class="my-top">
-            <li class="large material-icons">account_circle</li>
-            <li class="username">ああああ</li>
-          </div>
-          <div class="my-card">
-            <div class="my-text">
-              おはよう！僕の名前はミッキーだよ。ピエンピエンピエンぴえん
-            </div>
-            <div class="my-like">
-              <li><i class="small material-icons">insert_chart</i></li>
-              <li><i class="small material-icons">insert_chart</i></li>
-              <li><i class="small material-icons">insert_chart</i></li>
-            </div>
-          </div>
-        </div>
+    <!--Twitter_tab-->
+    <div id="Twitter-tab" class="col s12">
+      <div class="fixed-action-btn toolbar">
+        <!--投稿内容入力-->
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+        </ul>
       </div>
 
-    </div>
-    <div class="tab_item" id="item3">
-      <!--Message-->3番目のコンテンツ</div>
+      <div class="tab_item is-active-item" id="T-user">
+        <!--UserPage-->
+        <div class="t-card">
+          <div class="m-top">
+            <img class="m-icon" src="img/img_avatar.png">
+            <img class="t-header" src="./img/Best-Twitter-Header-Image-Size-1024x341.webp">
+          </div>
+          <div class="profile">
+            <div class="name-box">
+              <div class="text">あああああああああ</div>
+            </div>
+            <ul id="tabs-swipe-demo" class="tabs">
+              <li class="tab col s3"><a href="#profile-tab-1">twieet</a></li>
+              <li class="tab col s3"><a href="#profile-tab-2">media</a></li>
+              <li class="tab col s3"><a href="#profile-tab-3">likes</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="profile-tab-1" class="col s12">Test 1</div>
+        <div id="profile-tab-2" class="col s12">Test 2</div>
+        <div id="profile-tab-3" class="col s12">Test 3</div>
+      </div>
+      <div class="tab_item" id="T-timeline">
+        <!--Timeline-->
+      </div>
+      <div class="tab_item" id="T-notice">
+        aa
+      </div>
+      <div class="tab_item" id="T-DM">
+        DM
+      </div>
 
-    <div class="footer">
-      <ul class="tab-list">
-        <li class="tab_btn" href="#item1"><a class="waves-effect waves-light btn-large" href="#">Wave</a>
-        </li>
-        <li class="tab_btn is-active-btn" href="#item2"><a class="waves-effect waves-light btn-large" href="#">Wave</a>
-        </li>
-        <li class="tab_btn" href="#item3"><a class="waves-effect waves-light btn-large" href="#">Wave</a></li>
-      </ul>
+      <!--Twitter_Footer-->
+      <div class="m-footer flex">
+          <li class="tab_btn tab-p" href="#T-user">
+            <img id="m-icons" src="icons/person-black-18db.svg"></a>
+                  </li>
+          <li class="tab_btn tab-p" href="#T-timeline">
+            <img id="m-icons" src="icons/home-black-18dp.svg"></a>
+                  </li>
+          <li class="tab_btn tab-p" href="#T-notice">
+            <img id="m-icons" src="icons/notifications-24px (1).svg"></a>
+                  </li>
+          <li class="tab_btn tab-p" href="#T-DM">
+            <img id="m-icons" src="icons/chat-black-18dp.svg"></a>
+                  </li>
+      </div>
     </div>
 
+    <!--Instagram_tab-->
+    <div id="Instagram-tab" class="col s12">
+      <!--instaglamのタイムライン-->
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script>
-      $(function () {
-        $('.tab_btn').on('click', function () {
-          $('.tab_item').removeClass("is-active-item");
-          $($(this).attr("href")).addClass("is-active-item");
-          $('.tab_btn').removeClass('is-active-btn');
-          $(this).addClass('is-active-btn');
-        });
-      });
+    <!--Facebook_tab-->
+    <div id="Facebook-tab" class="col s12">
+      <!--instaglamのタイムライン-->
+    </div>
 
-    </script>
+    <!--Slack_tab-->
+    <div id="Slack-tab" class="col s12">
+      <!--slackのタイムライン-->
+    </div>
+  </div>
 
-
-  </div>
-  </div>
-  <div id="test-swipe-2" class="col s12">
-    <!--facebookのタイムライン-->
-  </div>
-  <div id="test-swipe-3" class="col s12">
-    <!--instaglamのタイムライン-->
-  </div>
-  <div id="test-swipe-4" class="col s12">
-    <!--slackのタイムライン-->
-  </div>
 
 
   <!--　Import jQuery before materialize.js-->
