@@ -33,6 +33,7 @@ body{
 .t-header {
   max-width: 100%;
   height: auto;
+  max-height: 290px;
 }
 
 .my-top {
@@ -79,6 +80,7 @@ body{
   margin-top: 20%;
   width: 25%;
   height: auto;
+  max-width: 150px;
 }
 
 .my {
@@ -99,7 +101,7 @@ body{
 .name-box{
   background-color: white;
   margin-left: 30%;
-  height: auto;
+  height: 100px;
 }
 
 .name {
@@ -235,4 +237,13 @@ body{
 
 li {
   list-style: none;
+}
+
+.t-block{
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.text{
+  padding-left: 10px;
 }
