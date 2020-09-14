@@ -2,289 +2,363 @@
     position: fixed;
 }
 
-body{
-  max-width: 10000px;
+body {
+    max-width: 10000px;
 }
 
 .tab_item {
     display: none;
-  }
-  
-  .is-active-item {
-    display: block;
-  }
+}
 
-  a {
+.is-active-item {
+    display: block;
+}
+
+a {
     display: block;
     color: inherit;
     text-decoration: none;
-  }
-  
-
-.userpage{
-  width: 100%;
 }
 
-.t-card{
-  max-width: 100%;
-  height: auto;
+.userpage {
+    width: 100%;
+}
+
+.t-card {
+    max-width: 100%;
+    height: auto;
 }
 
 .t-header {
-  max-width: 100%;
-  height: auto;
-  max-height: 290px;
+    max-width: 100%;
+    height: auto;
+    max-height: 290px;
 }
 
 .my-top {
-  background-color: white;
-  height: 60px;
-  padding-top: 20px;
+    background-color: white;
+    height: 60px;
+    padding-top: 20px;
 }
 
-.my-top li{
-  display: inline;
-  margin: 40px;
-
+.my-top li {
+    display: inline;
+    margin: 40px;
 }
 
 .my-card {
-  background-color: white;
-  height: auto;
-  top: 100px;
+    background-color: white;
+    height: auto;
+    top: 100px;
 }
 
 .my-text {
-  height: auto;
-  width: 100%;
-  background-color:white;
-  margin: 0px 5px 10px 10px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0px 5px 10px 10px;
 }
 
-
-.my-like li{
-  display: inline;
-}
-
-.my {
-  margin: 10px;
-
-}
-
-.m-icon{
-  border-radius: 100%;
-  border: 4px solid;
-  border-color: white;
-  margin-left: 5%;
-  position:absolute;
-  margin-top: 20%;
-  width: 25%;
-  height: auto;
-  max-width: 150px;
+.my-like li {
+    display: inline;
 }
 
 .my {
-  width: 100%;
-  height: auto;
-  background-color: white;
+    margin: 10px;
+}
+
+.m-icon {
+    border-radius: 100%;
+    border: 4px solid;
+    border-color: white;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 20%;
+    width: 25%;
+    height: auto;
+    max-width: 150px;
+}
+
+.my {
+    width: 100%;
+    height: auto;
+    background-color: white;
 }
 
 .profile {
-  height: auto;
-  background-color: white;
+    height: auto;
+    background-color: white;
 }
 
-.m-top{
-  padding: 5px;
+.m-top {
+    padding: 5px;
 }
 
-.name-box{
-  background-color: white;
-  margin-left: 30%;
-  height: 100px;
+.name-box {
+    background-color: white;
+    margin-left: 30%;
+    height: 100px;
 }
 
 .name {
-   margin-left: 50%;
-   font-size: 25px;
+    margin-left: 50%;
+    font-size: 25px;
 }
 
-.tabs{
-  
-}
+.tabs {}
 
-.logos{ 
-  width: 30px;
-  height: 30px;
-  bottom: 0px;
-  margin-top: 9px;
+.logos {
+    width: 30px;
+    height: 30px;
+    bottom: 0px;
+    margin-top: 9px;
 }
 
 .card-home {
-  width: 100%;
-  height: 100px;
-  background-color: aliceblue;
-  position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
 }
 
 .a {
-  width: 90%;
-  height: 100px;
-  background-color:blue;
+    width: 90%;
+    height: 100px;
+    background-color: blue;
 }
 
-.carousel .carousel-item{
-  width:100%;
+.carousel .carousel-item {
+    width: 100%;
 }
 
-#nav-icon{
-  width: 40px;
-  height: 40px;
-  padding-top: 10px;
+#nav-icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
 }
 
-#test-swipe-1{
-  width: 100%;
-  height: 10000px;
-  background-color: white;
+#test-swipe-1 {
+    width: 100%;
+    height: 10000px;
+    background-color: white;
 }
 
-#test-swipe-2{
-  width: 100%;
-  background-color:#29B6F6;
+#test-swipe-2 {
+    width: 100%;
+    background-color: #29B6F6;
 }
 
-#test-swipe-3{
-  width: 100%;
-  background-color:#FFCA28;
+#test-swipe-3 {
+    width: 100%;
+    background-color: #FFCA28;
 }
 
-#test-swipe-4{
-  width: 100%;
-  background-color:#42A5F5;
+#test-swipe-4 {
+    width: 100%;
+    background-color: #42A5F5;
 }
 
-#test-swipe-5{
-  width: 100%;
-  background-color: white;
+#test-swipe-5 {
+    width: 100%;
+    background-color: white;
 }
 
-#test-swipe-6{
-  width: 100%;
-  background-color: white;
+#test-swipe-6 {
+    width: 100%;
+    background-color: white;
 }
 
-.nav-wrapper{
-  background-color: gray;
+.nav-wrapper {
+    background-color: gray;
 }
 
-.brand-log{
-  left: 23%;
+.brand-log {
+    left: 23%;
 }
 
-.tabs .indicator{
-  background-color: black;
+.tabs .indicator {
+    background-color: black;
 }
 
-.m-footer{
-  height: 56px;
-  width: 100%;
-  bottom: 0px;
-  background-color: gray;
-  position: fixed;
+.m-footer {
+    height: 56px;
+    width: 100%;
+    bottom: 0px;
+    background-color: gray;
+    position: fixed;
 }
 
-.m-footer2{
-  height: 56px;
-  width: 100%;
-  bottom: 0px;
-  background-color: white;
-  position: fixed;
+.m-footer2 {
+    height: 56px;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+    position: fixed;
 }
 
-.footer2{
-  height: 56px;
-  width: 100%;
-  bottom: 0px;
-  background-color:red;
-  position: fixed;
-  position: absolute;
+.footer2 {
+    height: 56px;
+    width: 100%;
+    bottom: 0px;
+    background-color: red;
+    position: fixed;
+    position: absolute;
 }
 
 .flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.tab-p{
-  margin: 0 5px;
-  margin-bottom: 10px;
-  z-index: 0;
-  top: 0;
+.tab-p {
+    margin: 0 5px;
+    margin-bottom: 10px;
+    z-index: 0;
+    top: 0;
 }
 
-.tabs .tab a{
-  color: gray;
+.tabs .tab a {
+    color: gray;
 }
 
-
-.tabs .tab a:hover, .tabs .tab a.active{
-  color: black;
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: black;
 }
-
-
 
 #m-icons {
-  width: 56px;
-  height: 56px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+    width: 56px;
+    height: 56px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
-.t-block{
-  border-radius: 20%;
-  margin: 5px;
+.t-block {
+    border-radius: 20%;
+    margin: 5px;
 }
 
-.text{
-  padding-left: 10px;
+.text {
+    padding-left: 10px;
 }
 
-.m-cards{
-  width: 100%;
-  max-width: 600px;
-  background-color: white;
-  height: auto;
+.m-cards {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    height: auto;
+    display: block;
 }
 
-.card-head{
-  height: 35px;
-  width: 100%;
-  display: flex;
+.card-head {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
 }
 
-.T-side{
-  background-color:#29b6f6;
-  left: 0;
-  height: 100%;
-  width: 10px;
-  z-index: 0;
+.T-side {
+    background-color: #29b6f6;
+    height: auto;
+    padding: 5px;
 }
 
-.T-post{
-  height: 100px;
-  width: 100%;
-  position: flex;
-  align-content:flex-start;
+.I-side {
+    background-color: #f68c29;
+    height: auto;
+    padding: 5px;
 }
 
-.T-text{
-  
+.F-side {
+    background-color: #f68c29;
+    height: auto;
+    padding: 5px;
 }
 
+.T-post {
+    height: auto;
+    display: flex;
+}
+
+.T-text {
+    width: 95%;
+    padding-top: 10px;
+    flex: 1;
+    word-break: break-all;
+    font-size: 17px;
+    padding-left: 35px;
+}
+
+.I-text {
+    width: 95%;
+    padding-top: 10px;
+    flex: 1;
+    word-break: break-all;
+    font-size: 15px;
+}
+
+.card-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.card-usr {
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.card-name {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.card-id {
+    padding-left: 10px;
+    margin-top: 14px;
+    font-size: 16px;
+    color: gray;
+}
+
+.T-bottom {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+
+.b-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.footer-free {
+    width: 100%;
+    height: 56px;
+}
+
+.T-img {
+    max-width: 540px;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.I-img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.T-img-b {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}

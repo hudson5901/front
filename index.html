@@ -2,157 +2,351 @@
 <html>
 
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/my.css" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/my.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 </head>
 
 <body class="#eeeeee grey lighten-3">
-  
-  <!--ヘッダーと横のスライドナビゲーションバー-->
-  <div>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+
+    <!--ヘッダーと横のスライドナビゲーションバー-->
+    <div>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Comunipot</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                </div>
+            </nav>
+        </div>
+        <ul class="side-nav" id="mobile-demo">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="badges.html">Components</a></li>
             <li><a href="collapsible.html">Javascript</a></li>
             <li><a href="mobile.html">Mobile</a></li>
-        </div>
-      </nav>
-    </div>
-    <ul class="side-nav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
-    </ul>
-  </div>
-
-  <!--タブバーの部分-->
-  <div id="main">
-    <ul id="tabs-swipe-demo" class="tabs">
-      <li class="tab col s3"><a class="active" href="#Home-tab"><img class="logos"  src="./icons/home-black-18dp.svg"></a></li>
-      <li class="tab col s3"><a href="#Twitter-tab"><img class="logos" src="./icons/twitter.svg"></a></li>
-      <li class="tab col s3"><a href="#Instagram-tab"><img class="logos" src="./icons/instagram.svg"></a></li>
-      <li class="tab col s3"><a href="#Facebook-tab"><img class="logos" src="./icons/facebook.svg"></a></li>
-      <li class="tab col s3"><a href="#Slack-tab"><img class="logos" src="./icons/slack.svg"></a></li>
-    </ul>
-
-    <!--Home_tab-->
-    <div id="Home-tab" class="col s12">
-      <div class="m-footer flex">
-        <li class="tab_btn tab-p waves-effect waves-black" href="#T-user"><div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a></div></li>
-        <li class="tab_btn tab-p waves-effect waves-black" href="#T-timeline"><div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a></div></li>
-        <li class="tab_btn tab-p waves-effect waves-black" href="#T-notice"><div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a></div></li>
-        <li class="tab_btn tab-p waves-effect waves-black" href="#T-DM"><div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a></div></li>
-    </div>
-    </div>
-
-    <!--Twitter_tab-->
-    <div id="Twitter-tab" class="col s12">
-      <div class="fixed-action-btn toolbar">
-        <!--投稿内容入力-->
-        <a class="btn-floating btn-large red">
-          <i class="large material-icons">mode_edit</i>
-        </a>
-        <ul>
-          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
-          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
-          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
-          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
         </ul>
-      </div>
+    </div>
 
-      <div class="tab_item is-active-item" id="T-user">
-        <!--Twitter_UserPage-->
-        <div class="t-card">
-          <div class="m-top">
-            <img class="m-icon" src="img/img_avatar.png">
-            <img class="t-header" src="./img/Best-Twitter-Header-Image-Size-1024x341.webp">
-          </div>
-          <div class="profile">
-            <div class="name-box">
-              <div class="text">あああああああああ</div>
+    <!--タブバーの部分-->
+    <div id="main">
+        <ul id="tabs-swipe-demo tabs-fixed-width" class="tabs">
+            <li class="tab col s3">
+                <a class="active" href="#Home-tab"><img class="logos" src="./icons/home-black-18dp.svg"></a>
+            </li>
+            <li class="tab col s3">
+                <a href="#Twitter-tab"><img class="logos" src="./icons/twitter.svg"></a>
+            </li>
+            <li class="tab col s3">
+                <a href="#Instagram-tab"><img class="logos" src="./icons/instagram.svg"></a>
+            </li>
+            <li class="tab col s3">
+                <a href="#Facebook-tab"><img class="logos" src="./icons/facebook.svg"></a>
+            </li>
+            <li class="tab col s3">
+                <a href="#Slack-tab"><img class="logos" src="./icons/slack.svg"></a>
+            </li>
+        </ul>
+
+        <!--Home_tab-->
+        <div id="Home-tab" class="col s12">
+            <div class="m-cards">
+                <div class="card-head">
+                    <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                    <a class="card-name">Usernaaaaaaaaaame</a>
+                    <a class="card-id">@userid</a>
+                </div>
+                <div class="T-post">
+                    <div class="T-side"></div>
+                    <div class="text-box">
+                        <div class="T-text">
+                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                        <div class="T-bottom flex">
+                            <img class="b-icon" src="icons/comment-black-18dp.svg">
+                            <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                            <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                            <img class="b-icon" src="icons/more-black-18dp.svg">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul id="tabs-swipe-demo" class="tabs">
-              <li class="tab col s3"><a class="active" href="#T-profile_tab">twieet</a></li>
-              <li class="tab col s3"><a href="#T-media_tab">media</a></li>
-              <li class="tab col s3"><a href="#T-likes_tab">likes</a></li>
-            </ul>
-          </div>
+            <div class="m-cards">
+                <div class="card-head">
+                    <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                    <a class="card-name">Usernaaaaaaaaaame</a>
+                    <a class="card-id">@userid</a>
+                </div>
+                <div class="T-post">
+                    <div class="I-side"></div>
+                    <div class="text-box">
+                        <img class="I-img" src="./img/wp6517174-the-1975-aesthetic-wallpapers.jpg">
+                        <div class="T-text">
+                            こんにちはああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </div>
+                        <div class="T-bottom flex">
+                            <img class="b-icon" src="icons/comment-black-18dp.svg">
+                            <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                            <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                            <img class="b-icon" src="icons/more-black-18dp.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-cards">
+                <div class="card-head">
+                    <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                    <a class="card-name">Usernaaaaaaaaaame</a>
+                    <a class="card-id">@userid</a>
+                </div>
+                <div class="T-post">
+                    <div class="F-side"></div>
+                    <div class="text-box">
+                        <div class="T-text">
+                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                        <div class="T-bottom flex">
+                            <img class="b-icon" src="icons/comment-black-18dp.svg">
+                            <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                            <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                            <img class="b-icon" src="icons/more-black-18dp.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-free"></div>
+
+            <div class="m-footer flex">
+                <li class="tab_btn tab-p waves-effect waves-black" href="#H-user">
+                    <div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#H-timeline">
+                    <div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#H-notice">
+                    <div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#H-DM">
+                    <div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a>
+                    </div>
+                </li>
+            </div>
         </div>
-        <div id="T-profile_tab" class="col s12">Test 1</div>
-        <div id="T-media_tab" class="col s12">Test 2</div>
-        <div id="T-likes_tab" class="col s12">Test 3</div>
-      </div>
-      <div class="tab_item" id="T-timeline">
-        <!--Twitter_Timeline-->
-        <div class="m-cards">
-          <div class="card-head">
-            <a><img></a>
-            <a>Username</a>
-            <a>userid</a>
-          </div>
-          <div class="T-post">
-            <div class="T-side"></div>
-            <div class="T-text">
-              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+        <div id="Twitter-tab" class="col s12">
+            ​
+            <div class="tab_item is-active-item" id="T-user">
+                <!--Twitter_UserPage-->
+                <div class="t-card">
+                    <div class="m-top">
+                        <img class="m-icon" src="img/img_avatar.png">
+                        <img class="t-header" src="./img/Best-Twitter-Header-Image-Size-1024x341.webp">
+                    </div>
+                    <div class="profile">
+                        <div class="name-box">
+                            <div class="text">あああああああああ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a class="active" href="#test1">Twieet</a></li>
+                        <li class="tab col s3"><a href="#test2">media</a></li>
+                        <li class="tab col s3"><a href="#test3">lekes</a></li>
+                        <li class="tab col s3 disabled"><a href="#test4">frends</a>/a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12">
+                    <!--Twitter card-->
+                    <div class="m-cards">
+                        <div class="card-head">
+                            <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                            <a class="card-name">Usernaaaaaaaaaame</a>
+                            <a class="card-id">@userid</a>
+                        </div>
+                        <div class="T-post">
+                            <div class="T-side"></div>
+                            <div class="text-box">
+                                <div class="T-text">
+                                    こんにちはああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                                </div>
+                                <div class="T-bottom flex">
+                                    <img class="b-icon" src="icons/comment-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                                    <img class="b-icon" src="icons/more-black-18dp.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Twitter img card-->
+                    <div class="m-cards">
+                        <div class="card-head">
+                            <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                            <a class="card-name">Usernaaaaaaaaaame</a>
+                            <a class="card-id">@userid</a>
+                        </div>
+                        <div class="T-post">
+                            <div class="T-side"></div>
+                            <div class="text-box">
+                                <div class="T-text">
+                                    こんにちはああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                                </div>
+                                <div class="T-img-b"><img class="T-img" src="./img/twitter-img.jpg"></div>
+                                <div class="T-bottom flex">
+                                    <img class="b-icon" src="icons/comment-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                                    <img class="b-icon" src="icons/more-black-18dp.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="test2" class="col s12">
+                    <!--Twitter img card-->
+                    <div class="m-cards">
+                        <div class="card-head">
+                            <a class="card-usr"><img class="card-icon" src="./img/img_avatar.png"></a>
+                            <a class="card-name">Usernaaaaaaaaaame</a>
+                            <a class="card-id">@userid</a>
+                        </div>
+                        <div class="T-post">
+                            <div class="T-side"></div>
+                            <div class="text-box">
+                                <div class="T-text">
+                                    こんにちはああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                                </div>
+                                <div class="T-img-b"><img class="T-img" src="./img/twitter-img.jpg"></div>
+                                <div class="T-bottom flex">
+                                    <img class="b-icon" src="icons/comment-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/repeat-black-18dp.svg">
+                                    <img class="b-icon" src="./icons/favorite-black-18dp.svg">
+                                    <img class="b-icon" src="icons/more-black-18dp.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="test3" class="col s12">Test 3</div>
+                <div id="test4" class="col s12">Test 4</div>
             </div>
-            <div class="T-bottom">
-              <img>
-              <img>
-              <img>
+            <div class="tab_item" id="T-notice">
+                AAAA
             </div>
-          </div>
+            <div class="tab_item" id="T-DM">
+                aaa
+            </div>
+            <div class="tab_item" id="T-line">
+                bbbb
+            </div>
+            ​
+            <!--Twitter_Footer-->
+            <div class="m-footer2 flex">
+                <li class="tab_btn tab-p waves-effect waves-black" href="#T-user">
+                    <div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#T-notice">
+                    <div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#T-DM">
+                    <div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#T-line">
+                    <div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a>
+                    </div>
+                </li>
+            </div>
         </div>
-      </div>
-      <div class="tab_item" id="T-notice">
-        no
-      </div>
-      <div class="tab_item" id="T-DM">
-        DM
-      </div>
 
-      <!--Twitter_Footer-->
-      <div class="m-footer2 flex">
-          <li class="tab_btn tab-p waves-effect waves-black" href="#T-user"><div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a></div></li>
-          <li class="tab_btn tab-p waves-effect waves-black" href="#T-timeline"><div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a></div></li>
-          <li class="tab_btn tab-p waves-effect waves-black" href="#T-notice"><div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a></div></li>
-          <li class="tab_btn tab-p waves-effect waves-black" href="#T-DM"><div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a></div></li>
-      </div>
+        <!--Instagram_tab-->
+        <div id="Instagram-tab" class="col s12">
+            <!--instaglamのタイムライン-->
+            <div class="tab_item" id="#I-timeline"></div>
+            <div class="tab_item" id="#I-timeline"></div>
+            <div class="tab_item" id="#I-notice"></div>
+            <div class="tab_item" id="#I-DM"></div>
+
+            <!--Instagram_Footer-->
+            <div class="m-footer2 flex">
+                <li class="tab_btn tab-p waves-effect waves-black" href="#I-user">
+                    <div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#I-timeline">
+                    <div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#I-notice">
+                    <div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#I-DM">
+                    <div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a>
+                    </div>
+                </li>
+            </div>
+
+        </div>
+
+        <!--Facebook_tab-->
+        <div id="Facebook-tab" class="col s12">
+            <!--facebookのタイムライン-->
+            <div class="tab_item" id="#F-timeline"></div>
+            <div class="tab_item" id="#F-timeline"></div>
+            <div class="tab_item" id="#F-notice"></div>
+            <div class="tab_item" id="#F-DM"></div>
+            <!--Facebook_Footer-->
+            <div class="m-footer2 flex">
+                <li class="tab_btn tab-p waves-effect waves-black" href="#F-user">
+                    <div class="t-block"><img id="m-icons" src="icons/person-black-18db.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#F-timeline">
+                    <div class="t-block "><img id="m-icons" src="icons/timeline-black-18dp.svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#F-notice">
+                    <div class="t-block "><img id="m-icons" src="icons/notifications-24px (1).svg"></a>
+                    </div>
+                </li>
+                <li class="tab_btn tab-p waves-effect waves-black" href="#F-DM">
+                    <div class="t-block "><img id="m-icons" src="icons/chat-black-18dp.svg"></a>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <!--Slack_tab-->
+        <div id="Slack-tab" class="col s12">
+            <!--slackのタイムライン-->
+        </div>
     </div>
 
-    <!--Instagram_tab-->
-    <div id="Instagram-tab" class="col s12">
-      <!--instaglamのタイムライン-->
-    </div>
-
-    <!--Facebook_tab-->
-    <div id="Facebook-tab" class="col s12">
-      <!--instaglamのタイムライン-->
-    </div>
-
-    <!--Slack_tab-->
-    <div id="Slack-tab" class="col s12">
-      <!--slackのタイムライン-->
-    </div>
-  </div>
 
 
-
-  <!--　Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.js"></script>
-  <script type="text/javascript" src="js/my.js"></script>
+    <!--　Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
 </body>
 
 </html>
